@@ -19,11 +19,6 @@
   display: none;
 }
 
-@media only screen and (max-width: 1200px) {
-  .center-column {
-    padding: 0 1em;
-  }
-}
 
 .center-column-background {
   position: fixed;
@@ -47,10 +42,21 @@
   font-weight: 400;
 }
 
-@media only screen and (max-width:1480px) {
-  .heading-container {
-    justify-content: center;
-  }
+
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1em;
+  width: 100%;
+}
+
+.kontakt {
+  font-size: 1.1em;
+  font-weight: 400;
+  margin: 0;
 }
 
 

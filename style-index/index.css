@@ -43,25 +43,6 @@ a:hover {
   padding: 1em 0em;
 }
 
-@media only screen and (max-width: 1200px) {
-  .user-interface {
-    flex-direction: column;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .user-interface {
-    flex-direction: column;
-    width: 100vw;
-    padding: 0;
-  }
-  body {
-    padding: 0;
-  }
-  .bottom-bar, .top-bar {
-    display: none;
-  }
-}
 
 
 .top-bar {

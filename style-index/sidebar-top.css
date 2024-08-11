@@ -10,13 +10,6 @@
   justify-content: start;
 }
 
-@media only screen and (max-width: 1200px) {
-  .sidebar-top {
-    display: flex;
-    justify-content: start;
-  }
-}
-
 
 .dot-menu {
   display: flex;

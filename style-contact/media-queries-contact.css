@@ -27,6 +27,90 @@
   }
 
   .contact-formular {
-    width: 100%;
+    width: 90vw;
+  }
+
+  .picture-center {
+    margin: 0;
+  }
+
+  .service-frame {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sidebar-left {
+    left: -100%;
+    position: absolute;
+  }
+}
+
+@media only screen and (max-width: 1480px) {
+  .accomplishements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    left: 2em;
+    right: 2em;
+    justify-content: center;
+  }
+
+  .heading-container {
+    justify-content: center;
+  }
+
+  .service-frame {
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 1em;
+    row-gap: 1em;
+  }
+
+  .footer {
+    grid-row: initial;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .accomplishment {
+    text-wrap: wrap;
+  }
+  .accomplishements {
+    gap: 0;
+}
+}
+
+
+
+
+@media only screen and (max-width: 1870px) {
+  .marlon-picture {
+    display: none;
+  }
+  .slogan {
+    position: static;
+  }
+}
+
+
+
+@media only screen and (max-width: 560px) {
+  .slogan {
+    font-size: 2rem;
+  }
+  .mail {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+  .service-frame {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+@media screen and (max-height: 1080px) {
+  .sidebar-left::-webkit-scrollbar {
+    display: none;
   }
 }

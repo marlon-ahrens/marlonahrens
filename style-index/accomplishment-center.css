@@ -32,24 +32,3 @@
 }
 
 
-
-
-@media only screen and (max-width: 1480px) {
-  .accomplishements {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    left: 2em;
-    right: 2em;
-    justify-content: center;
-  }
-}
-
-@media only screen and (max-width: 625px) {
-  .accomplishment {
-    text-wrap: wrap;
-  }
-  .accomplishements {
-    gap: 0;
-}
-}
