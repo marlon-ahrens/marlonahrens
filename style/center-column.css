@@ -35,6 +35,25 @@
   width: 100%;
 }
 
+.heading-container {
+  display: flex;
+  width: 100%;
+  padding: 0 1em;
+  justify-content: start;
+}
+
+.my-services {
+  margin: 0 0 1em 0;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+@media only screen and (max-width:1480px) {
+  .heading-container {
+    justify-content: center;
+  }
+}
+
 
 
 
