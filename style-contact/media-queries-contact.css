@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1200px) {
+  .sidebar-top {
+    display: flex;
+    justify-content: start;
+  }
+
+  .center-column {
+    padding: 0 1em;
+  }
+
+  .sidebar-right {
+    display: none;
+  }
+
+  .user-interface {
+    flex-direction: column;
+    width: 100vw;
+    padding: 0;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .bottom-bar, .top-bar {
+    display: none;
+  }
+
+  .contact-formular {
+    width: 100%;
+  }
+}

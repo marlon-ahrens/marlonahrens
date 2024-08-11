@@ -1,0 +1,55 @@
+.accomplishements {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center; 
+  column-gap: 1em;
+  width: 100%;
+  margin: 1em 0 1em 0;
+}
+
+.number-1, .number-2, .number-3, .number-4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #F46258;
+  text-wrap: nowrap;
+}
+
+.matter {
+  font-size: 13px;
+  font-weight: 400;
+  flex-wrap: wrap;
+  color: #1E1E28;
+  text-align: left;
+}
+
+.accomplishment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: .6em;
+  line-height: 14px;
+}
+
+
+
+
+@media only screen and (max-width: 1480px) {
+  .accomplishements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    left: 2em;
+    right: 2em;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .accomplishment {
+    text-wrap: wrap;
+  }
+  .accomplishements {
+    gap: 0;
+}
+}
