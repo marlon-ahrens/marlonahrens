@@ -10,7 +10,8 @@
   align-items: center;
   justify-content: flex-start;
   padding: 0em 2em;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
   z-index: 1;
   position: relative;
 }
