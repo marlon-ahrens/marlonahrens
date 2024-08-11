@@ -14,12 +14,12 @@
   overflow-x: hidden;
   z-index: 1;
   position: relative;
+  box-sizing: border-box;
 }
 
 .center-column::-webkit-scrollbar {
   display: none;
 }
-
 
 .center-column-background {
   position: fixed;
