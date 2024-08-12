@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /*background-image: url('/images/center-column-top-image.webp');*/
   background-repeat: no-repeat;
   background-position: center;
   margin-top: 2em;
@@ -38,26 +37,6 @@
   right: 1em;
 }
 
-@media only screen and (max-width: 1870px) {
-  .marlon-picture {
-    display: none;
-  }
-  .slogan {
-    position: static;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-  .picture-center {
-    margin: 0;
-  }
-}
-
-@media only screen and (max-width: 560px) {
-  .slogan {
-    font-size: 2rem;
-  }
-}
 
 
 
