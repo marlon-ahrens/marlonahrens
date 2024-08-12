@@ -2,16 +2,16 @@ html, body {
   background-color: #E0E0E6;
 }
 
-a {
+.name-link {
   text-decoration: none;
 }
 
-a:visited {
+.name-link:visited {
   text-decoration: none;
   color: initial;
 }
 
-a:hover {
+.name-link:hover {
   cursor: pointer;
 }
 

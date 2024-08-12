@@ -75,7 +75,13 @@
   }
   .accomplishements {
     gap: 0;
-}
+  }
+  .name-box, .email-box, .message-box {
+    margin: 0.4em 0;
+  }
+  .contact-formular {
+    padding: 1em 1em;
+  }
 }
 
 
@@ -105,12 +111,5 @@
 @media only screen and (max-width: 800px) {
   .service-frame {
     grid-template-columns: repeat(1, 1fr);
-  }
-}
-
-
-@media screen and (max-height: 1080px) {
-  .sidebar-left::-webkit-scrollbar {
-    display: none;
   }
 }

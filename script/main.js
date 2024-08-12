@@ -1,5 +1,5 @@
 let circularProgressOne = document.querySelector(".progress-1"),
-  progressValueOne = document.querySelector(".value-1"); // Assuming the class is 'value'
+  progressValueOne = document.querySelector(".value-1"); 
 
 let progressStartValueOne = 0,
   progressEndValueOne = 100,
@@ -8,11 +8,9 @@ let progressStartValueOne = 0,
 let progressOne = setInterval(() => {
   progressStartValueOne ++;
   
-  // Update the inner HTML of the progressValue element
   progressValueOne.innerHTML = progressStartValueOne + "%";
   circularProgressOne.style.background = `conic-gradient(#F46258, ${progressStartValueOne * 3.6}deg, #c2c9d6 0deg)`; 
   
-  // Stop the interval when the progress reaches the end value
   if (progressStartValueOne === progressEndValueOne) {
     clearInterval(progressOne);
   }
@@ -22,7 +20,7 @@ let progressOne = setInterval(() => {
 
 
 let circularProgressTwo = document.querySelector(".progress-2"),
-  progressValueTwo = document.querySelector(".value-2"); // Assuming the class is 'value'
+  progressValueTwo = document.querySelector(".value-2"); 
 
 let progressStartValueTwo = 0,
   progressEndValueTwo = 90,
@@ -31,11 +29,9 @@ let progressStartValueTwo = 0,
 let progressTwo = setInterval(() => {
   progressStartValueTwo ++;
   
-  // Update the inner HTML of the progressValue element
   progressValueTwo.innerHTML = progressStartValueTwo + "%";
   circularProgressTwo.style.background = `conic-gradient(#F46258, ${progressStartValueTwo * 3.6}deg, #c2c9d6 0deg)`; 
   
-  // Stop the interval when the progress reaches the end value
   if (progressStartValueTwo === progressEndValueTwo) {
     clearInterval(progressTwo);
   }
@@ -44,7 +40,7 @@ let progressTwo = setInterval(() => {
 
 
 let circularProgressThree = document.querySelector(".progress-3"),
-  progressValueThree = document.querySelector(".value-3"); // Assuming the class is 'value'
+  progressValueThree = document.querySelector(".value-3"); 
 
 let progressStartValueThree = 0,
   progressEndValueThree = 60,
@@ -53,11 +49,9 @@ let progressStartValueThree = 0,
 let progressThree = setInterval(() => {
   progressStartValueThree ++;
   
-  // Update the inner HTML of the progressValue element
   progressValueThree.innerHTML = progressStartValueThree + "%";
   circularProgressThree.style.background = `conic-gradient(#F46258, ${progressStartValueThree * 3.6}deg, #c2c9d6 0deg)`; 
   
-  // Stop the interval when the progress reaches the end value
   if (progressStartValueThree === progressEndValueThree) {
     clearInterval(progressThree);
   }
@@ -132,4 +126,20 @@ document.addEventListener('DOMContentLoaded', function () {
     overlay.classList.toggle('show', isOpen);
   });
 });
+
+const contact = document.querySelectorAll('.kontakt');
+const arrow = document.querySelectorAll('.arrow');
+
+contact.forEach((contact, index) => {
+  contact.addEventListener('mouseover', () => {
+    arrow[index].style.marginLeft = "0.8em";
+  });
+})
+
+contact.forEach((contact, index) => {
+  contact.addEventListener('mouseleave', () => {
+    arrow[index].style.marginLeft = "0.4em";
+  })
+})
+
 

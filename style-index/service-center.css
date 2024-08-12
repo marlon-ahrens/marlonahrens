@@ -1,6 +1,8 @@
 .service-1, .service-2, .service-3, .service-4 {
   background-color: white;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  padding: 1em;
 }
 
 .service-frame {
@@ -18,24 +20,26 @@
   font-size: 1rem;
   color: #1E1E28;
   font-weight: 400;
-  margin: 1rem;
 }
 
 .description {
   font-size: .8rem;
   color: #8C8C8E;
-  margin: 1rem;
 }
 
 .kontakt {
   color: #F46258;
-  margin: 1rem;
   font-size: 1rem;
+  width: fit-content;
+  text-decoration: none;
 }
+
+
 
 .arrow {
   font-weight: 700;
   margin-left: .4em;
+  transition: 0.3s ease-in-out;
 }
 
 @media only screen and (max-width: 1480px) {
