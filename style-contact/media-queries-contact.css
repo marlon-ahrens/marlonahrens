@@ -140,4 +140,8 @@
   .line-1, .line-2, .line-3 {
     margin: 1em;
   }
+
+  .footer-contact {
+    height: 3em;
+  }
 }

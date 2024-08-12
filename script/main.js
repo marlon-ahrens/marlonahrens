@@ -62,14 +62,15 @@ let numberOne = document.querySelector(".number-1"),
   startNumberOne = 0,
   endNumberOne = 100,
   numberOneSpeed = 26;
-
-let countOne = setInterval(() => {
-  startNumberOne++;
-  numberOne.innerHTML = startNumberOne + " +"
-  if(startNumberOne === endNumberOne) {
-    clearInterval(countOne);
+  if(numberOne) {
+    let countOne = setInterval(() => {
+      startNumberOne++;
+      numberOne.innerHTML = startNumberOne + " +"
+      if(startNumberOne === endNumberOne) {
+        clearInterval(countOne);
+      }
+    }, numberOneSpeed);
   }
-}, numberOneSpeed);
 
 
 let numberTwo = document.querySelector(".number-2"),
@@ -77,13 +78,15 @@ let numberTwo = document.querySelector(".number-2"),
   endNumberTwo = 7,
   numberTwoSpeed = 300;
 
-let countTwo = setInterval(() => {
-  startNumberTwo++;
-  numberTwo.innerHTML = startNumberTwo;
-  if(startNumberTwo === endNumberTwo) {
-    clearInterval(countTwo);
+  if(numberTwo) {
+    let countTwo = setInterval(() => {
+      startNumberTwo++;
+      numberTwo.innerHTML = startNumberTwo;
+      if(startNumberTwo === endNumberTwo) {
+        clearInterval(countTwo);
+      }
+    }, numberTwoSpeed);
   }
-}, numberTwoSpeed);
 
 
 let numberThree = document.querySelector(".number-3"),
@@ -91,13 +94,15 @@ let numberThree = document.querySelector(".number-3"),
   endNumberThree = 2,
   numberThreeSpeed = 1200;
 
-let countThree = setInterval(() => {
-  startNumberThree++;
-  numberThree.innerHTML = startNumberThree
-  if(startNumberThree === endNumberThree) {
-    clearInterval(countThree);
+  if(numberThree) {
+    let countThree = setInterval(() => {
+      startNumberThree++;
+      numberThree.innerHTML = startNumberThree
+      if(startNumberThree === endNumberThree) {
+        clearInterval(countThree);
+      }
+    }, numberThreeSpeed);
   }
-}, numberThreeSpeed);
 
 
 let numberFour = document.querySelector(".number-4"),
@@ -105,13 +110,15 @@ let numberFour = document.querySelector(".number-4"),
   endNumberFour = 150,
   numberFourSpeed = 15;
 
-let countFour = setInterval(() => {
-  startNumberFour++;
-  numberFour.innerHTML = startNumberFour + " +"
-  if(startNumberFour === endNumberFour) {
-    clearInterval(countFour);
+  if(numberFour) {
+    let countFour = setInterval(() => {
+      startNumberFour++;
+      numberFour.innerHTML = startNumberFour + " +"
+      if(startNumberFour === endNumberFour) {
+        clearInterval(countFour);
+      }
+    }, numberFourSpeed);
   }
-}, numberFourSpeed);
 
 document.addEventListener('DOMContentLoaded', function () {
   const dotMenu = document.querySelector('.dot-menu');
