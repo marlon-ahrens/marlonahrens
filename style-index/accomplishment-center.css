@@ -8,14 +8,14 @@
 }
 
 .number-1, .number-2, .number-3, .number-4 {
-  font-size: 1.3rem;
+  font-size: 1.3em;
   font-weight: bold;
   color: #F46258;
   text-wrap: nowrap;
 }
 
 .matter {
-  font-size: 13px;
+  font-size: 0.8em;
   font-weight: 400;
   flex-wrap: wrap;
   color: #1E1E28;

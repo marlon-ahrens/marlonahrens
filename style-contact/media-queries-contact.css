@@ -105,11 +105,39 @@
   .mail {
     display: none;
   }
+  .contact-formular {
+    height: 74vh;
+    align-items: center;
+  }
+  .message-box {
+    height: 20em;
+  }
+  .header-container {
+    justify-content: center;
+  }
+  .matter {
+    font-size: 0.6em;
+  }
+  .number-1, .number-2, .number-3, .number-4 {
+    font-size: 1em;
+  }
 }
 
 
 @media only screen and (max-width: 800px) {
   .service-frame {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-height: 720px) {
+  .line-1, .line-2, .line-3 {
+    margin: 1.2em;
+  }
+}
+
+@media only screen and (max-height: 610px) {
+  .line-1, .line-2, .line-3 {
+    margin: 1em;
   }
 }

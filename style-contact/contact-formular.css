@@ -8,7 +8,7 @@
   height: 46vh;
   background-color: white;
   margin-top: 1em;
-  padding: 2em 3em;
+  padding: 1em 2em;
 }
 
 .name-box, .email-box, .message-box {
@@ -53,7 +53,7 @@
   box-sizing: border-box;
   display: flex;
   justify-content: start;
-  padding: 0 0 0 0.8em;
+  padding: 0.8em;
 }
 
 .message-icon {
@@ -74,6 +74,7 @@
   font-size: 1em;
   font-weight: bold;
   margin: 1em 0;
+  cursor: pointer;
 }
 
 .placeholder-1, .placeholder-2 {

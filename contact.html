@@ -97,27 +97,28 @@
           <div class="header-container">
             <h2 class="kontakt">Kontakt</h2>
           </div>
-          <div class="contact-formular">
+          <form action="https://api.web3forms.com/submit" method="POST"class="contact-formular">
+            <input type="hidden" name="access_key" value="3a001705-bcd0-40f7-9d25-116879ac3b00">
             <div class="name-box">
               <div class="name-icon">
                 <img src="images/icons/person-icon.webp" class="icon">
               </div>
-              <input type="text" class="name-input"><span class="placeholder-1">Name</span>
+              <input type="text" name="name" class="name-input" required><span class="placeholder-1">Name</span>
             </div>
             <div class="email-box">
               <div class="email-icon">
                 <img src="images/icons/@-icon.webp" class="icon">
               </div>
-              <input type="text" class="email-input"><span class="placeholder-2">Email</span>
+              <input type="email" name="email" class="email-input" required><span class="placeholder-2">Email</span>
             </div>
             <div class="message-box">
               <div class="message-icon">
                 <img src="images/icons/mail-icon.webp" class="icon"></img>
               </div>
-              <textarea type="text" class="message-input"></textarea><span class="placeholder-3">Nachricht</span>
+              <textarea type="text" name="message" class="message-input" required></textarea><span class="placeholder-3">Nachricht</span>
             </div>
-            <button class="send">Senden</button>
-          </div>
+            <button type="submit" class="send">Senden</button>
+          </form>
         </div>
         <div class="sidebar-right"></div>
       </div>
