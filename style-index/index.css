@@ -1,6 +1,5 @@
 html, body {
   background-color: #E0E0E6;
-  height: 100%;
 }
 
 .name-link {
@@ -15,6 +14,7 @@ html, body {
 .name-link:hover {
   cursor: pointer;
 }
+
 
 
 .body {
