@@ -52,6 +52,8 @@
 
 .footer-contact {
   height: 5em;
+  width: 100%;
+  margin: 0 1em;
   background-color: #F4F4F6;
   box-sizing: border-box;
   display: flex;
@@ -59,10 +61,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 2em;
-  position: absolute;
-  bottom: 0;
-  left: 2em;
-  right: 2em;
 }
 
 

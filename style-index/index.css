@@ -1,5 +1,6 @@
 html, body {
   background-color: #E0E0E6;
+  height: -webkit-fill-available;
 }
 
 .name-link {

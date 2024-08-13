@@ -17,6 +17,10 @@
   box-sizing: border-box;
 }
 
+.center-column-contact {
+  justify-content: space-between;
+}
+
 .center-column::-webkit-scrollbar {
   display: none;
 }
