@@ -106,11 +106,11 @@
     display: none;
   }
   .contact-formular {
-    height: 74vh;
+    height: 70vh;
     align-items: center;
   }
   .message-box {
-    height: 18em;
+    height: 10em;
   }
   .header-container {
     justify-content: center;
@@ -139,11 +139,6 @@
 @media only screen and (max-height: 610px) {
   .line-1, .line-2, .line-3 {
     margin: 1em;
-  }
-
-  .footer-contact {
-    max-height: 50px;
-    width: 70px;
   }
 
   .send {
