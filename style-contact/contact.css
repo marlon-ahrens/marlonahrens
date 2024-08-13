@@ -25,6 +25,8 @@ a:hover {
   align-items: center;
   margin: 0;
   font-size: 16px;
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-top: env(safe-area-inset-top);
 }
 
 .user-interface {
