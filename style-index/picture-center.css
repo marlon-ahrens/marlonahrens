@@ -28,13 +28,14 @@
   position: absolute;
   left: 2em;
   text-align: center;
+  width: 60%;
 }
 
 .marlon-picture {
-  height: 90%;
+  height: 110%;
   position: absolute;
   bottom: 0;
-  right: 1em;
+  right: 0;
 }
 
 
